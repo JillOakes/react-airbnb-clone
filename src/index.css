@@ -1,13 +1,81 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+nav {
+  height: 60px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.logo {
+  width: 120px;
+}
+
+section {
+  padding: 30px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroPhoto {
+  max-width: 400px;
+  align-self: center;
+}
+
+.heroHeader {
+  margin-bottom: 0px;
+  font-size: 36px;
+  line-height: 110%;
+}
+
+.heroText {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 110%;
+  color: #222222;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+/* .card > span {
+  margin: 0px;
+  padding: 0px;
+} */
+
+.cardPhoto {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.cardStats {
+  display: flex;
+  align-items: center;
+}
+
+.cardStar {
+  height: 14px;
 }
